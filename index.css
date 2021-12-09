@@ -1,0 +1,51 @@
+body{
+    background-color: white;
+}
+
+.overall{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.dice{
+    text-align: center;
+    display: inline-block;
+}
+
+h1{
+    margin: 30px;
+    font-family: cursive;
+    font-size: 4rem;
+    color: red;
+}
+
+p{
+    font-size: 2rem;
+    color: red;
+    font-family: cursive;
+}
+
+footer{
+    font-family: cursive;
+    color: red;
+    text-align: center;
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+   .dice{
+       display: flex;
+       width: 200px;
+       height: 200px;
+   }
+}
+
+
+@media (max-width: 425px) {
+    .dice{
+        display: flex;
+        width: 200px;
+        height: 100px;
+    }
+}
